@@ -1,9 +1,9 @@
 #n=1
-movimientos= [[4, 6],[6, 8], [7, 9], [4, 8], [0, 3, 9], [], [0, 1, 7], [2, 6], [1, 3], [2, 4]]
+#movimientos= [[4, 6],[6, 8], [7, 9], [4, 8], [0, 3, 9], [], [0, 1, 7], [2, 6], [1, 3], [2, 4]]
 
-total_movimientos = sum(len(sublista) for sublista in movimientos)
+#total_movimientos = sum(len(sublista) for sublista in movimientos)
 
-print("Cantidad total de movimientos:", total_movimientos)
+#print("Cantidad total de movimientos:", total_movimientos)
 
 #n cualquiera
 movimientos = [[4, 6], [6, 8], [7, 9], [4, 8], [0, 3, 9], [], [0, 1, 7], [2, 6], [1, 3], [2, 4]]
@@ -23,7 +23,7 @@ def calcular_posibilidades(n):
     total_posibilidades = sum(posibilidades.values())
     return total_posibilidades
 
-n = 8 # Puedes cambiar esto al número de movimientos que desees calcular
+n =32 # Puedes cambiar esto al número de movimientos que desees calcular
 posibilidades = calcular_posibilidades(n)
 
 print(f"Cantidad de movimientos: {n}")
